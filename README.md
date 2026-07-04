@@ -19,69 +19,7 @@
 
 <div align="center">
 
-```mermaid
-flowchart TB
-    subgraph TITLE["🎮 Infinite-Genre-Instance-Dungeons"]
-        T1["无限流副本记忆系统"]
-        T2["让你的AI真正记住每一次冒险"]
-    end
-
-    subgraph INPUT["📥 输入层"]
-        I1["💬 用户对话"]
-        I2["🖼️ 场景图片"]
-        I3["🎭 角色互动"]
-        I4["⚡ 剧情选择"]
-        I5["🌙 副本经历"]
-    end
-
-    subgraph CORE["🧠 核心处理"]
-        C1["话题分析"]
-        C2["记忆形成"]
-        C3["关系图谱"]
-        C4["人物印象"]
-        C5["时间记忆"]
-    end
-
-    subgraph STORAGE["💾 存储层"]
-        S1["SQLite 结构化记忆"]
-        S2["LanceDB 向量记忆"]
-        S3["图数据库 关系网络"]
-        S4["时间线 事件序列"]
-        S5["多模态 图文融合"]
-    end
-
-    subgraph OUTPUT["📤 输出层"]
-        O1["📖 上下文注入"]
-        O2["🎭 角色演化"]
-        O3["🌐 剧情延续"]
-        O4["📊 可视化管理"]
-        O5["🔄 记忆召回"]
-    end
-
-    subgraph RESULT["🎯 最终效果"]
-        R1["✨ 下一轮副本 ✨"]
-        R2["不是重开新档"]
-        R3["而是继续冒险"]
-    end
-
-    TITLE --> INPUT
-    INPUT --> CORE
-    CORE --> STORAGE
-    STORAGE --> OUTPUT
-    OUTPUT --> RESULT
-
-    style TITLE fill:#6C5CE7,stroke:#fff,color:#fff
-    style T1 fill:#A29BFE,stroke:#fff,color:#fff
-    style T2 fill:#DFE6E9,stroke:#6C5CE7,color:#6C5CE7
-    style INPUT fill:#74B9FF,stroke:#0984e3,color:#fff
-    style CORE fill:#00B894,stroke:#00cec9,color:#fff
-    style STORAGE fill:#FDCB6E,stroke:#fdcb6e,color:#2d3436
-    style OUTPUT fill:#E17055,stroke:#d63031,color:#fff
-    style RESULT fill:#00B894,stroke:#00cec9,color:#fff
-    style R1 fill:#55EFC4,stroke:#00B894,color:#00B894
-    style R2 fill:#55EFC4,stroke:#00B894,color:#00B894
-    style R3 fill:#55EFC4,stroke:#00B894,color:#00B894
-```
+![架构图](./docs/architecture.svg)
 
 </div>
 
