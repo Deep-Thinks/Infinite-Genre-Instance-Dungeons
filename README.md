@@ -20,91 +20,67 @@
 <div align="center">
 
 ```mermaid
-block-beta
-    columns 5
-
-    block:hero:5
-        columns 5
-        h["🎮 Infinite-Genre-Instance-Dungeons"]
-        h2["无限流副本记忆系统"]
-        h3["让你的AI真正记住每一次冒险"]
+flowchart TB
+    subgraph TITLE["🎮 Infinite-Genre-Instance-Dungeons"]
+        T1["无限流副本记忆系统"]
+        T2["让你的AI真正记住每一次冒险"]
     end
 
-    block:input:5
-        columns 5
-        i1["💬 用户对话"]
-        i2["🖼️ 场景图片"]
-        i3["🎭 角色互动"]
-        i4["⚡ 剧情选择"]
-        i5["🌙 副本经历"]
+    subgraph INPUT["📥 输入层"]
+        I1["💬 用户对话"]
+        I2["🖼️ 场景图片"]
+        I3["🎭 角色互动"]
+        I4["⚡ 剧情选择"]
+        I5["🌙 副本经历"]
     end
 
-    block:core:5
-        columns 5
-        c1["🧠 话题分析"]
-        c2["📝 记忆形成"]
-        c3["🔗 关系图谱"]
-        c4["👤 人物印象"]
-        c5["⏰ 时间记忆"]
+    subgraph CORE["🧠 核心处理"]
+        C1["话题分析"]
+        C2["记忆形成"]
+        C3["关系图谱"]
+        C4["人物印象"]
+        C5["时间记忆"]
     end
 
-    block:storage:5
-        columns 5
-        s1["SQLite<br/>结构化记忆"]
-        s2["LanceDB<br/>向量记忆"]
-        s3["图数据库<br/>关系网络"]
-        s4["时间线<br/>事件序列"]
-        s5["多模态<br/>图文融合"]
+    subgraph STORAGE["💾 存储层"]
+        S1["SQLite 结构化记忆"]
+        S2["LanceDB 向量记忆"]
+        S3["图数据库 关系网络"]
+        S4["时间线 事件序列"]
+        S5["多模态 图文融合"]
     end
 
-    block:output:5
-        columns 5
-        o1["📖 上下文注入"]
-        o2["🎭 角色演化"]
-        o3["🌐 剧情延续"]
-        o4["📊 可视化管理"]
-        o5["🔄 记忆召回"]
+    subgraph OUTPUT["📤 输出层"]
+        O1["📖 上下文注入"]
+        O2["🎭 角色演化"]
+        O3["🌐 剧情延续"]
+        O4["📊 可视化管理"]
+        O5["🔄 记忆召回"]
     end
 
-    block:result:5
-        columns 5
-        r1[""]
-        r2["✨ 下一轮副本 ✨"]
-        r3["不是重开新档"]
-        r4["而是继续冒险"]
-        r5[""]
+    subgraph RESULT["🎯 最终效果"]
+        R1["✨ 下一轮副本 ✨"]
+        R2["不是重开新档"]
+        R3["而是继续冒险"]
     end
 
-    i1 --> c1
-    i2 --> c2
-    i3 --> c3
-    i4 --> c4
-    i5 --> c5
+    TITLE --> INPUT
+    INPUT --> CORE
+    CORE --> STORAGE
+    STORAGE --> OUTPUT
+    OUTPUT --> RESULT
 
-    c1 --> s1
-    c2 --> s2
-    c3 --> s3
-    c4 --> s4
-    c5 --> s5
-
-    s1 --> o1
-    s2 --> o2
-    s3 --> o3
-    s4 --> o4
-    s5 --> o5
-
-    o1 --> r2
-    o2 --> r2
-    o3 --> r3
-    o4 --> r4
-    o5 --> r5
-
-    style h fill:#6C5CE7,stroke:#fff,color:#fff
-    style h2 fill:#A29BFE,stroke:#fff,color:#fff
-    style h3 fill:#DFE6E9,stroke:#6C5CE7,color:#6C5CE7
-    style r2 fill:#00B894,stroke:#fff,color:#fff
-    style r3 fill:#55EFC4,stroke:#00B894,color:#00B894
-    style r4 fill:#55EFC4,stroke:#00B894,color:#00B894
+    style TITLE fill:#6C5CE7,stroke:#fff,color:#fff
+    style T1 fill:#A29BFE,stroke:#fff,color:#fff
+    style T2 fill:#DFE6E9,stroke:#6C5CE7,color:#6C5CE7
+    style INPUT fill:#74B9FF,stroke:#0984e3,color:#fff
+    style CORE fill:#00B894,stroke:#00cec9,color:#fff
+    style STORAGE fill:#FDCB6E,stroke:#fdcb6e,color:#2d3436
+    style OUTPUT fill:#E17055,stroke:#d63031,color:#fff
+    style RESULT fill:#00B894,stroke:#00cec9,color:#fff
+    style R1 fill:#55EFC4,stroke:#00B894,color:#00B894
+    style R2 fill:#55EFC4,stroke:#00B894,color:#00B894
+    style R3 fill:#55EFC4,stroke:#00B894,color:#00B894
 ```
 
 </div>
