@@ -15,6 +15,120 @@
 
 ---
 
+## 🎮 项目定位
+
+<div align="center">
+
+```mermaid
+block-beta
+    columns 5
+
+    block:hero:5
+        columns 5
+        h["🎮 Infinite-Genre-Instance-Dungeons"]
+        h2["无限流副本记忆系统"]
+        h3["让你的AI真正记住每一次冒险"]
+    end
+
+    block:input:5
+        columns 5
+        i1["💬 用户对话"]
+        i2["🖼️ 场景图片"]
+        i3["🎭 角色互动"]
+        i4["⚡ 剧情选择"]
+        i5["🌙 副本经历"]
+    end
+
+    block:core:5
+        columns 5
+        c1["🧠 话题分析"]
+        c2["📝 记忆形成"]
+        c3["🔗 关系图谱"]
+        c4["👤 人物印象"]
+        c5["⏰ 时间记忆"]
+    end
+
+    block:storage:5
+        columns 5
+        s1["SQLite<br/>结构化记忆"]
+        s2["LanceDB<br/>向量记忆"]
+        s3["图数据库<br/>关系网络"]
+        s4["时间线<br/>事件序列"]
+        s5["多模态<br/>图文融合"]
+    end
+
+    block:output:5
+        columns 5
+        o1["📖 上下文注入"]
+        o2["🎭 角色演化"]
+        o3["🌐 剧情延续"]
+        o4["📊 可视化管理"]
+        o5["🔄 记忆召回"]
+    end
+
+    block:result:5
+        columns 5
+        r1[""]
+        r2["✨ 下一轮副本 ✨"]
+        r3["不是重开新档"]
+        r4["而是继续冒险"]
+        r5[""]
+    end
+
+    i1 --> c1
+    i2 --> c2
+    i3 --> c3
+    i4 --> c4
+    i5 --> c5
+
+    c1 --> s1
+    c2 --> s2
+    c3 --> s3
+    c4 --> s4
+    c5 --> s5
+
+    s1 --> o1
+    s2 --> o2
+    s3 --> o3
+    s4 --> o4
+    s5 --> o5
+
+    o1 --> r2
+    o2 --> r2
+    o3 --> r3
+    o4 --> r4
+    o5 --> r5
+
+    style h fill:#6C5CE7,stroke:#fff,color:#fff
+    style h2 fill:#A29BFE,stroke:#fff,color:#fff
+    style h3 fill:#DFE6E9,stroke:#6C5CE7,color:#6C5CE7
+    style r2 fill:#00B894,stroke:#fff,color:#fff
+    style r3 fill:#55EFC4,stroke:#00B894,color:#00B894
+    style r4 fill:#55EFC4,stroke:#00B894,color:#00B894
+```
+
+</div>
+
+### 🎯 核心理念
+
+> **"每一次冒险都不应该被遗忘"**
+>
+> 这不是又一个聊天机器人插件，而是一个**让AI拥有持久记忆的基础设施**。
+> 当用户在无限流副本中做出选择、建立关系、经历故事时，
+> 这些都会被记住，并在下一次冒险中继续影响剧情发展。
+
+### 💡 解决的痛点
+
+| 传统系统 | 使用本系统后 |
+|---------|-------------|
+| 😔 每次对话都像初次见面 | 😊 记得所有历史交互 |
+| 😔 NPC永远没有记忆 | 😊 人物关系会演化 |
+| 😔 剧情无法连续 | 😊 旧因果会影响新剧情 |
+| 😔 选择没有后果 | 😊 每个决定都被铭记 |
+| 😔 图片无法记忆 | 😊 多模态记忆支持 |
+
+---
+
 ## 目录
 
 - [这是什么](#这是什么)
