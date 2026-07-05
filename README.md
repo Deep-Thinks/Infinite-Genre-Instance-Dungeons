@@ -399,13 +399,9 @@ pip install -r requirements-multimodal.txt
 
 ![场景详情](./docs/screenshots/phase5/scene_detail_panel.png)
 
-**属性面板 - 追踪角色属性变化**
+**属性面板与回忆系统 - 右侧面板完整功能**
 
-![属性面板](./docs/screenshots/e2e/phase2_scene_timeline.png)
-
-**回忆系统 - 跨周目记忆和结局追踪**
-
-![回忆系统](./docs/screenshots/e2e/02_workflow_tab.png)
+![属性面板与回忆系统](./docs/screenshots/responsive/phase4_desktop.png)
 
 #### 响应式设计
 
